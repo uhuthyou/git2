@@ -8,3 +8,7 @@ double Function::add(double a, double b) {
 double Function::subtract(double a, double b) {
     return a - b;
 }
+
+double Function::multiply(double a, double b) {
+    return a * b;
+}

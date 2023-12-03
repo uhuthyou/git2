@@ -24,6 +24,9 @@ int main() {
     case '*':
         cout << "Result: " << Function::multiply(a, b) << endl;
         break;
+    case '/':
+        cout << "Result: " << Function::divide(a, b) << endl;
+        break;
         default:
             cout << "Incorrect operation!" << endl;
             break;

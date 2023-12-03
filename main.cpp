@@ -21,6 +21,9 @@ int main() {
     case '-':
         cout << "Result: " << Function::subtract(a, b) << endl;
         break;
+    case '*':
+        cout << "Result: " << Function::multiply(a, b) << endl;
+        break;
         default:
             cout << "Incorrect operation!" << endl;
             break;
